@@ -1,11 +1,13 @@
+import jetbrains.buildServer.configs.kotlin.v2019_2.*
+import jetbrains.buildServer.configs.kotlin.v2019_2.buildSteps.maven
+
 version = "2019.2"
 project {
-    id("BuildPipelineViews_JamiePipelines")
-    name = "Jamie Builds"
+//    name = "Jamie Builds"
     description = "Jamie"
 
     buildType {
-        id ("jamiebuild")
+        id("adfsdfsf")
         name = "jamie build type"
         steps {
             maven {
